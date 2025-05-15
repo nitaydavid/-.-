@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נ.ד שירותי מנעולנות</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            direction: rtl;
+        }
+        header {
+            background-color: #1a2c53;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .section {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .services, .contact-form {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li::before {
+            content: '🔹';
+            margin-left: 5px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #1a2c53;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .cta-button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e9ecef;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>נ.ד שירותי מנעולנות</h1>
+        <h3>זמינות. אמינות. ביטחון.</h3>
+    </header>
+
+    <section class="section">
+        <div class="services">
+            <h2>השירותים שלנו:</h2>
+            <ul>
+                <li>פריצת דלתות לבתים</li>
+                <li>פריצת רכבים</li>
+                <li>תיקון והחלפת מנעולים</li>
+                <li>החלפת צילינדרים</li>
+                <li>התקנת מנעולים חכמים</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <p><strong>אזורי שירות:</strong> פתח תקווה, תל אביב, רמת גן, גבעתיים, ראשון לציון וכל אזור המרכז</p>
+            <p><strong>צרו קשר עכשיו – 24/6:</strong> מענה מהיר, מחירים הוגנים, שירות ללא נזקים</p>
+        </div>
+
+        <div class="section">
+            <a href="#" class="cta-button">שלחו לי הודעה בוואטסאפ</a>
+        </div>
+
+        <div class="contact-form">
+            <h2>או השאירו פרטים ונחזור אליכם:</h2>
+            <form>
+                <label>שם:</label>
+                <input type="text" name="name" required>
+
+                <label>טלפון:</label>
+                <input type="tel" name="phone" required>
+
+                <button type="submit">שליחה</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        נ.ד שירותי מנעולנות – הדלת פתוחה אליך
+    </footer>
+</body>
+</html>
